@@ -26,11 +26,11 @@ _loadoutMapping = [
   ["Rifleman CLS", _riflemanCLS, []],
   ["Grenadier", _grenadier, []],
   ["Team/Squad Leader", _team_squad_leader, []],
-  ["Medic", _medic, []],
+  ["Medic", _medic, ["Regiment Commander@Regiment Headquarters", "Regiment XO@Regiment Headquarters", "Regiment CSM@Regiment Headquarters", "Section Leader@Medic Section", "Assistant Section Leader@Medic Section", "Team Leader@Medic Section", "Medic@Medic Section"]],
   ["Autorifleman", _autorifleman, []],
-  ["Crewman", _crewman, []],
-  ["UH60 Pilot", _uhPilot, ["Detachment Commander@CAB", "Assistant Detachment Commander@CAB", "UH-60 Pilot@CAB", "AH-64 Pilot@CAB"]],
-  ["AH64 Pilot", _ahPilot, ["Detachment Commander@CAB", "Assistant Detachment Commander@CAB", "UH-60 Pilot@CAB", "AH-64 Pilot@CAB"]]
+  ["Crewman", _crewman, ["Section Leader@BFV Section","Regiment Commander@Regiment Headquarters", "Regiment XO@Regiment Headquarters", "Regiment CSM@Regiment Headquarters", "Assistant Section Leader@BFV Section", "Vehicle Commander@BFV Section", "Gunner@BFV Section", "Alternate@BFV Section", "Driver@BFV Section"]],
+  ["UH60 Pilot", _uhPilot, ["Detachment Commander@CAB", "Assistant Detachment Commander@CAB", "UH-60 Pilot@CAB", "AH-64 Pilot@CAB", "Regiment Commander@Regiment Headquarters", "Regiment XO@Regiment Headquarters", "Regiment CSM@Regiment Headquarters"]],
+  ["AH64 Pilot", _ahPilot, ["Detachment Commander@CAB", "Assistant Detachment Commander@CAB", "UH-60 Pilot@CAB", "AH-64 Pilot@CAB", "Regiment Commander@Regiment Headquarters", "Regiment XO@Regiment Headquarters", "Regiment CSM@Regiment Headquarters"]]
 ];
 
 // Local variables
