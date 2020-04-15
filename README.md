@@ -7,6 +7,12 @@ These are custom scripts used by the 8th Cavalry Regiment milsim group.
 
 Adds actions to an object to equip loadouts for different classes.
 
+To use it, give the object a unique variable name (e.g., arsenal1) and then add this line
+to its init field:
+```
+_null = [YOUR_VARIABLE_NAME_HERE] execVM "customArsenal.sqf";
+```
+
 Depends on equipLoadout.
 
 ### equipLoadout
