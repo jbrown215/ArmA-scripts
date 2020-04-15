@@ -26,7 +26,7 @@ _loadoutMapping = [
   ["Rifleman CLS", _riflemanCLS, []],
   ["Grenadier", _grenadier, []],
   ["Team/Squad Leader", _team_squad_leader, []],
-  ["Medic", _medic, []],
+  ["Medic", _medic, ["Medic@Medic Section", "Assistant Section Leader@Medic Section", "Team Leader@Medic Section", "Section Leader@Medic Section"]],
   ["Autorifleman", _autorifleman, []],
   ["Crewman", _crewman, []],
   ["UH60 Pilot", _uhPilot, ["Detachment Commander@CAB", "Assistant Detachment Commander@CAB", "UH-60 Pilot@CAB", "AH-64 Pilot@CAB"]],
