@@ -16,3 +16,8 @@ If they are not, a message is displayed saying that they do not have permission
 to use the loadout.
 
 Requires a multiplayer environment for classes with whitelists.
+
+## personUnlocksDoor
+
+Copy this script into the init field of an object with a single door
+and change 'Spy' to the unit role that should be allowed to unlock the door.
