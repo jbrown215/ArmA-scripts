@@ -18,3 +18,8 @@ Requires a multiplayer environment for classes with whitelists.
 
 Copy this script into the init field of an object with a single door
 and change 'Spy' to the unit role that should be allowed to unlock the door.
+
+## keyUnlocksDoor
+
+Copy this script into the init field of an object with a single door. Requires
+'Item_Keys' in the player's inventory to unlock the door.
