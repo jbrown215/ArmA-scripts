@@ -1,6 +1,4 @@
-// Add this to the init field of an object with one door. Replace 'Spy' with
-// the unit role that should be allowed to unlock the door.
-// Todo: make this script take an input for the condition instead.
+this setVariable ['bis_disabled_Door_1',1,true];
 this addAction ["Unlock Door", {
   _door = _this select 0;
   _door setVariable ['bis_disabled_Door_1',0,true];
