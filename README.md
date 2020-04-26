@@ -1,6 +1,6 @@
 # ArmA Scripts
 
-These are custom scripts used by the 8th Cavalry Regiment milsim group.
+These are custom scripts used by the Alpha company of 3rd battalion, 75th Rangers Regiment.
 
 ## Scripts
 ### customArsenal
