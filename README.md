@@ -1,6 +1,6 @@
 # ArmA Scripts
 
-These are custom scripts used by the 8th Cavalry Regiment milsim group.
+These are custom scripts used by the Task Force 146 milsim group.
 
 ## Scripts
 ### customArsenal
