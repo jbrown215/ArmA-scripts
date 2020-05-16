@@ -23,3 +23,13 @@ and change 'Spy' to the unit role that should be allowed to unlock the door.
 
 Copy this script into the init field of an object with a single door. Requires
 'Item_Keys' in the player's inventory to unlock the door.
+
+## crashHelicopter
+
+Add this file to your mission folder and use:
+```
+_null = [this, helicopterVariable, "Name for action"] execVM "crashHelicopter.sqf"
+```
+to run the script. `helicopterVariable` should be the variable name for a helicopter
+that you spawn on the map. You can add this line multiple times for multiple
+helicopters- just be sure to use a unique helicopterVariable and action name.
